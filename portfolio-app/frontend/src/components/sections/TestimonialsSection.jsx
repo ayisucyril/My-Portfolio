@@ -4,8 +4,8 @@ import { Quote, ChevronLeft, ChevronRight, Star } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Kwame Mensah',
-    role: 'CEO, TechStartup GH',
+    name: 'Moses Xenyo',
+    role: 'Branch Manager, GIFEC GH',
     avatar: 'KM',
     rating: 5,
     text: 'Cyril delivered our platform ahead of schedule and exceeded every expectation. The code quality is exceptional and the attention to detail in the UI is remarkable. Highly recommended!'
@@ -18,9 +18,9 @@ const testimonials = [
     text: 'Working with Cyril was an absolute pleasure. He understood our vision immediately, asked the right questions, and built exactly what we needed. The end product is beautiful and performs flawlessly.'
   },
   {
-    name: 'Dr. James Addo',
-    role: 'Head of CS Dept., UG',
-    avatar: 'JA',
+    name: 'Prof. Ayima John C., PhD',
+    role: 'Head of CS Dept., HTU',
+    avatar: 'AJ',
     rating: 5,
     text: 'As Cyril\'s professor, I\'ve watched him grow into an exceptional developer. His technical skills are matched only by his professionalism and leadership. A true asset to any team.'
   },

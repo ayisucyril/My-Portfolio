@@ -77,8 +77,8 @@ const ContactSection = () => {
 
               <div className="space-y-4">
                 {[
-                  { icon: Mail, label: 'Email', value: 'cyrilayisu@email.com', href: 'mailto:cyrilayisu@email.com' },
-                  { icon: Phone, label: 'Phone', value: '+233 XXX XXX XXX', href: 'tel:+233' },
+                  { icon: Mail, label: 'Email', value: 'ayisucyril@gmail.com', href: 'mailto:ayisucyril@gmail.com' },
+                  { icon: Phone, label: 'Phone', value: '+233 551 805 905', href: 'tel:+233' },
                   { icon: MapPin, label: 'Location', value: 'Accra, Ghana', href: null },
                 ].map(item => (
                   <div key={item.label} className="flex items-center gap-4">
