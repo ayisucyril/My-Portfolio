@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ff6b00;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cc5500;
+  }
+
+  ::selection {
+    background: rgba(255, 107, 0, 0.3);
+    color: #fff;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl;
+  }
+
+  .glass-card-orange {
+    @apply bg-primary/5 backdrop-blur-md border border-primary/20 rounded-2xl;
+  }
+
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-3 rounded-xl transition-all duration-300 hover:shadow-orange hover:-translate-y-0.5 active:scale-95;
+  }
+
+  .btn-outline {
+    @apply border border-primary text-primary hover:bg-primary hover:text-white font-semibold px-6 py-3 rounded-xl transition-all duration-300 hover:shadow-orange hover:-translate-y-0.5 active:scale-95;
+  }
+
+  .btn-ghost {
+    @apply text-white/70 hover:text-white font-medium px-4 py-2 rounded-lg transition-all duration-200 hover:bg-white/10;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold font-heading;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary via-primary-light to-white bg-clip-text text-transparent;
+  }
+
+  .nav-link {
+    @apply relative text-white/70 hover:text-white font-medium text-sm transition-colors duration-200;
+  }
+
+  .input-field {
+    @apply w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:border-primary/50 transition-all duration-200;
+  }
+
+  .skill-badge {
+    @apply inline-flex items-center gap-1.5 bg-primary/10 border border-primary/20 text-primary text-sm font-medium px-3 py-1 rounded-full;
+  }
+
+  .grid-bg {
+    background-image: linear-gradient(rgba(255,107,0,0.03) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255,107,0,0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(255, 107, 0, 0.5);
+  }
+
+  .box-glow {
+    box-shadow: 0 0 30px rgba(255, 107, 0, 0.2);
+  }
+
+  .font-display {
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .font-heading {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .font-body {
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  background: #0a0a0a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+#tsparticles {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.gradient-border {
+  position: relative;
+  background: linear-gradient(#0a0a0a, #0a0a0a) padding-box,
+              linear-gradient(135deg, #ff6b00, transparent, #ff6b00) border-box;
+  border: 2px solid transparent;
+  border-radius: 16px;
+}
+
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(255, 107, 0, 0.15);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-10px) rotate(1deg); }
+  66% { transform: translateY(-5px) rotate(-1deg); }
+}
+
+.animate-float-element {
+  animation: float 6s ease-in-out infinite;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -33px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ff6b00;
+  box-shadow: 0 0 0 4px rgba(255,107,0,0.2);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
