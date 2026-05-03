@@ -198,9 +198,11 @@ const HeroSection = () => {
               <div className="w-72 h-72 sm:w-80 sm:h-80 rounded-full relative overflow-hidden m-4 sm:m-8">
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/30 via-dark-100 to-dark-400 border-2 border-primary/30 flex items-center justify-center overflow-hidden">
                   {/* Fallback avatar */}
-                  <div className="w-full h-full bg-gradient-to-br from-primary/20 to-dark-200 flex items-center justify-center">
-                    <span className="font-display text-primary text-8xl opacity-60">CA</span>
-                  </div>
+                  <img
+                    src="/profile.jpg"
+                    alt="Cyril Ayisu"
+                    className="w-full h-full object-cover object-center"
+                  />
                 </div>
                 {/* Glow effect */}
                 <div className="absolute inset-0 rounded-full bg-primary/5 blur-xl" />

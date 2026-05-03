@@ -8,9 +8,9 @@ const experiences = [
     icon: Trophy,
     title: 'COMPSSA President',
     organization: 'Computer Science Students Association',
-    period: '2024 – Present',
-    description: 'Leading 500+ CS students. Organized 10+ tech events, 3 hackathons, and multiple mentorship sessions.',
-    highlights: ['500+ Members Led', '10+ Events Organized', '3 Hackathons'],
+    period: '2023/2024 – Present',
+    description: 'Leading 2000+ IT students. Organized 10+ tech events, 3 hackathons, and multiple mentorship sessions.',
+    highlights: ['2000+ Members Led', '10+ Events Organized', '3 Hackathons'],
     color: 'orange'
   },
   {
@@ -18,18 +18,18 @@ const experiences = [
     icon: Briefcase,
     title: 'Freelance Full Stack Developer',
     organization: 'Self-Employed',
-    period: '2023 – Present',
+    period: '2024 – Present',
     description: 'Delivered production-grade web applications for clients in e-commerce, education, and fintech sectors.',
-    highlights: ['15+ Projects Delivered', '20+ Satisfied Clients', '98% Client Retention'],
+    highlights: ['5+ Projects Delivered', '20+ Satisfied Clients', '98% Client Retention'],
     color: 'blue'
   },
   {
     type: 'education',
     icon: GraduationCap,
-    title: 'BSc. Computer Science',
-    organization: 'University of Ghana',
-    period: '2021 – Present',
-    description: 'Studying computer science with focus on software engineering, algorithms, and distributed systems.',
+    title: 'BTech Information and Communication Technology',
+    organization: 'Ho Technical University',
+    period: '2023/2024 – Present',
+    description: 'Studying cInformation and Communication Technology with focus on software engineering, algorithms, and distributed systems.',
     highlights: ['First Class Honors', 'Dean\'s List', 'Research Published'],
     color: 'green'
   }
