@@ -154,7 +154,7 @@ const HeroSection = () => {
               className="flex gap-4"
             >
               {[
-                { icon: Github, href: 'https://github.com/ayisucyril/BS-Solution', label: 'GitHub' },
+                { icon: Github, href: 'https://github.com/dashboard', label: 'GitHub' },
                 { icon: Linkedin, href: 'https://www.linkedin.com/feed/', label: 'LinkedIn' },
                 /* { icon: Twitter, href: 'https://twitter.com/cyrilayisu', label: 'Twitter' },*/
               ].map(social => (

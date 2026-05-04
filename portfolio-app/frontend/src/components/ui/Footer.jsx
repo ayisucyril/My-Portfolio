@@ -32,7 +32,7 @@ const Footer = () => {
           {/* Social & Scroll to top */}
           <div className="flex items-center gap-3">
             {[
-              { icon: Github, href: 'https://github.com/cyrilayisu' },
+              { icon: Github, href: 'https://github.com/dashboard' },
               { icon: Linkedin, href: 'https://linkedin.com/in/cyrilayisu' },
               { icon: Twitter, href: 'https://twitter.com/cyrilayisu' },
             ].map((social, i) => (
