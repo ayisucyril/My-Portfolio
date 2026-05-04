@@ -14,7 +14,7 @@ const defaultProjects = [
     techStack: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind'],
     category: 'fullstack',
     githubLink: 'https://github.com/ayisucyril/BS-Solution', 
-    liveLink: '#',
+    liveLink: 'https://starlit-bombolone-1517d1.netlify.app/',
     featured: true
   },
   {
