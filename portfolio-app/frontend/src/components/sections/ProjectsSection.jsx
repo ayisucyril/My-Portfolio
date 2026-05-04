@@ -13,7 +13,7 @@ const defaultProjects = [
     image: '',
     techStack: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Tailwind'],
     category: 'fullstack',
-    githubLink: '#',
+    githubLink: { href: 'https://github.com/ayisucyril/BS-Solution' },
     liveLink: '#',
     featured: true
   },

@@ -14,7 +14,7 @@ const timelineItems = [
     color: 'primary'
   },
   {
-    year: '2023',
+    year: '2024',
     title: 'Full Stack Developer',
     subtitle: 'Freelance & Contract Work',
     description: 'Delivered 15+ production web applications for clients across various industries.',
@@ -22,7 +22,7 @@ const timelineItems = [
     color: 'primary'
   },
   {
-    year: '2022',
+    year: '2023',
     title: 'UI/UX Design Journey',
     subtitle: 'Self-directed Learning',
     description: 'Mastered design principles, Figma, and user-centered design thinking.',
@@ -30,7 +30,7 @@ const timelineItems = [
     color: 'primary'
   },
   {
-    year: '2021',
+    year: '2023',
     title: 'Started Coding',
     subtitle: 'Computer Science Student',
     description: 'Began the journey into software development with HTML, CSS, and JavaScript.',
@@ -106,12 +106,12 @@ const AboutSection = () => {
                 <div className="space-y-3 text-white/70 leading-relaxed">
                   <p>
                     I'm a passionate full-stack developer and creative web designer based in Ghana, West Africa.
-                    With over 3 years of hands-on experience, I specialize in building modern, scalable web
+                    With over 2 years of hands-on experience, I specialize in building modern, scalable web
                     applications that blend technical excellence with beautiful design.
                   </p>
                   <p>
                     As the President of COMPSSA (Computer Science Students Association), I lead and inspire
-                    a community of over 500 aspiring developers, organizing hackathons, workshops, and
+                    a community of over 2000+ aspiring developers, organizing hackathons, workshops, and
                     mentorship programs that shape the next generation of tech talent.
                   </p>
                   <p>
@@ -123,7 +123,7 @@ const AboutSection = () => {
                 <div className="grid grid-cols-2 gap-4 mt-6">
                   {[
                     { icon: MapPin, text: 'Ghana, West Africa' },
-                    { icon: Mail, text: 'cyrilayisu@email.com' },
+                    { icon: Mail, text: 'ayisucyril@email.com' },
                     { icon: Calendar, text: 'Available Immediately' },
                     { icon: Award, text: 'COMPSSA President' },
                   ].map(item => (
@@ -144,10 +144,10 @@ const AboutSection = () => {
                 className="grid grid-cols-2 sm:grid-cols-4 gap-4"
               >
                 {[
-                  { value: '30+', label: 'Projects' },
-                  { value: '20+', label: 'Clients' },
-                  { value: '3+', label: 'Years' },
-                  { value: '8+', label: 'Certificates' },
+                  { value: '5+', label: 'Projects' },
+                  { value: '3+', label: 'Clients' },
+                  { value: '2+', label: 'Years' },
+                  { value: '3+', label: 'Certificates' },
                 ].map(stat => (
                   <div key={stat.label} className="glass-card p-4 text-center hover-card">
                     <div className="text-2xl font-bold font-heading text-primary">{stat.value}</div>

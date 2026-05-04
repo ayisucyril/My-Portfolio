@@ -98,9 +98,9 @@ const HeroSection = () => {
               className="flex gap-8 mb-10"
             >
               {[
-                { value: '30+', label: 'Projects' },
-                { value: '20+', label: 'Clients' },
-                { value: '3+', label: 'Years Exp.' },
+                { value: '5+', label: 'Projects' },
+                { value: '3+', label: 'Clients' },
+                { value: '2+', label: 'Years Exp.' },
               ].map(stat => (
                 <div key={stat.label}>
                   <div className="text-2xl font-bold font-heading text-primary">{stat.value}</div>
@@ -215,7 +215,7 @@ const HeroSection = () => {
                 className="absolute top-0 -right-4 glass-card-orange px-3 py-2 rounded-xl"
               >
                 <div className="text-xs text-white/60">Experience</div>
-                <div className="text-primary font-bold font-heading">3+ Years</div>
+                <div className="text-primary font-bold font-heading">2+ Years</div>
               </motion.div>
 
               <motion.div
@@ -224,7 +224,7 @@ const HeroSection = () => {
                 className="absolute bottom-4 -left-8 glass-card-orange px-3 py-2 rounded-xl"
               >
                 <div className="text-xs text-white/60">Projects Done</div>
-                <div className="text-primary font-bold font-heading">30+</div>
+                <div className="text-primary font-bold font-heading">5+</div>
               </motion.div>
             </motion.div>
           </div>
